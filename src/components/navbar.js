@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import LogoEpic from '../assets/images/logo-epic-game.png'
 import Logo from '../assets/images/logo-fortnite.png';
 import '../styles/navbar.css';
@@ -17,8 +17,8 @@ const NavbarComponent = () => {
             <Navbar collapseOnSelect className="p-0" expand="lg" bg="dark" variant="dark">
                 <Container className='px-0' fluid>
                     <div className="px-3">
-                        <Navbar.Brand><img src={LogoEpic} /></Navbar.Brand>
-                        <Navbar.Brand><img src={Logo} /></Navbar.Brand>
+                        <Navbar.Brand><img src={LogoEpic} alt="logo fivenite" /></Navbar.Brand>
+                        <Navbar.Brand><img src={Logo} alt="logo fivenite" /></Navbar.Brand>
                     </div>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className="bg-dark m-0">

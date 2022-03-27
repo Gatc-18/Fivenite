@@ -1,0 +1,16 @@
+.card-image-text{
+    font-family: 'Burbank Big Condensed';
+    margin-top:128px;
+    margin-bottom: 68px;
+}
+
+
+.card-image-text h2{
+    margin-top: 5%;
+    color: #4DCCFA;
+}
+
+.card-image-text p{
+    font-size: 24px;
+    line-height: 30px;
+}
