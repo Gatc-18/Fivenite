@@ -35,7 +35,7 @@ const MainBlock = () => {
 
 
     return (
-        <>
+        <div id="mainComponent">
             <div className="contenedor">
                 <div className="mainContainer">
                     <img src={MainImage} className="img-fluid" alt="imagen principal" />
@@ -49,7 +49,7 @@ const MainBlock = () => {
                 </div>
                  
             </div>
-        </>
+        </div>
     )
 }
 

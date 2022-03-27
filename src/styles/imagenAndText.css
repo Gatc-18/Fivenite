@@ -1,7 +1,8 @@
 .card-image-text{
     font-family: 'Burbank Big Condensed';
-    margin-top:128px;
-    margin-bottom: 68px;
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
 }
 
 
