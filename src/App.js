@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NavbarComponent from './components/navbar';
 
 
 const App = () => {
@@ -7,7 +8,7 @@ const App = () => {
 
     return (
         <>
-        <h1>Hola</h1>
+            <NavbarComponent />
         </>
     )
 }
