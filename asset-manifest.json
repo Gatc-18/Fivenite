@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Fivenite/static/css/main.c0755490.css",
-    "main.js": "/Fivenite/static/js/main.a0c3a03d.js",
+    "main.js": "/Fivenite/static/js/main.ff3dd3bf.js",
     "static/media/mainImage.png": "/Fivenite/static/media/mainImage.275c84d504d38f27e598.png",
     "static/media/image5.png": "/Fivenite/static/media/image5.c1a7b23d8cf0dcd94732.png",
     "static/media/Rectangle2.png": "/Fivenite/static/media/Rectangle2.f1d5b3138d17bf4000c4.png",
@@ -9,10 +9,10 @@
     "static/media/Rectangle1.png": "/Fivenite/static/media/Rectangle1.b8e46487653a48895e25.png",
     "index.html": "/Fivenite/index.html",
     "main.c0755490.css.map": "/Fivenite/static/css/main.c0755490.css.map",
-    "main.a0c3a03d.js.map": "/Fivenite/static/js/main.a0c3a03d.js.map"
+    "main.ff3dd3bf.js.map": "/Fivenite/static/js/main.ff3dd3bf.js.map"
   },
   "entrypoints": [
     "static/css/main.c0755490.css",
-    "static/js/main.a0c3a03d.js"
+    "static/js/main.ff3dd3bf.js"
   ]
 }
