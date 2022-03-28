@@ -1,0 +1,23 @@
+.main-container-information{
+   position: relative;
+}
+
+.button-container{
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+   transform: translate(-50%, -10%);
+}
+
+.hola{
+    background-color: aliceblue;
+}
+
+
+.button-information{
+    padding: 10px 30px;
+    font-family: 'Burbank Big Condensed';
+    background-color: #ffc107;
+    font-size: 40px;
+    border:none
+}

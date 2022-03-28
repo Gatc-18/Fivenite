@@ -1,15 +1,20 @@
 import React from 'react';
+import ImageContainer from '../assets/images/image5.png';
+import '../styles/moreInformation.css'
 
 
-
-
-const  MoreInformation = () => {
+const MoreInformation = () => {
 
 
     return (
-        <>
-        <h1>Holaa</h1>
-        </>
+        <div className="main-container-information">
+            <img src={ImageContainer} className="img-fluid" alt="imagen de fondo" />
+            <div className="hola">
+                <div className="button-container">
+                    <button className="button-information">MÁS INFORMACIÓN</button>
+                </div>
+            </div>
+        </ div>
     )
 }
 
