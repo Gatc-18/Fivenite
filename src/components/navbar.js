@@ -36,7 +36,7 @@ const NavbarComponent = () => {
                         </Nav>
                         <Nav style={{paddingLeft: 0}} className="nav-text-fivenite">
                             <Nav.Link className="p-4"> INICIAR SESIÓN</Nav.Link>
-                            <Nav.Link className="bg-warning py-4 px-4 m-0 text-dark">
+                            <Nav.Link style={{color:'black'}} className="bg-warning py-4 px-4 m-0">
                                 DESCARGAR
                             </Nav.Link>
                         </Nav>
