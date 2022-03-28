@@ -36,19 +36,21 @@ const MainBlock = () => {
 
     return (
 
-            <div className="contenedor">
-                <div className="mainContainer">
-                    <img src={MainImage} className="img-fluid" alt="imagen principal" />
-                </div>
-                <div className='secondContainer text-center'>
+        <div className="contenedor">
+            <div className="mainContainer">
+                <img src={MainImage} className="img-fluid" alt="imagen principal" />
+            </div>
+            <div className='secondContainer text-center'>
                 {
                     data?.map(item => (
-                        <ImageAndTextComponent key={item.id} data={item} />
+                        
+                            <ImageAndTextComponent key={item.id} data={item} />
+                      
                     ))
                 }
-                </div>
-                 
             </div>
+
+        </div>
     )
 }
 
